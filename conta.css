@@ -1,0 +1,82 @@
+.Formu{
+    height: 100%;
+    height: 100vh;
+    background-color: rgb(33, 116, 241);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    place-items: center;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+} 
+img{
+    width: 40%;
+    height: 30%;
+}
+.Ilustrar{
+    z-index: 1;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    place-items: center;
+    box-shadow: 2px 0px 20px rgb(33, 116, 241);
+    background-color: rgb(33, 116, 241);
+    width: 50%;
+    height: 100%;
+}
+form{
+    position: relative;
+    top: 50%;
+    display: grid;
+    justify-content: space-evenly;
+    place-items: center;
+    align-items: center;
+    justify-items: center; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+#Desenho1{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+button[id="Volta"] {
+    all: unset;
+    height: 1em;
+    text-align: center;
+    border: 1px solid black;
+    padding: 4px;
+}
+button[id="Log"] {
+    all: unset;
+    margin-left: 10px;
+    padding: 4px;
+}
+#out{
+    position: relative;
+    top: 35%;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.CriarConta{
+    display: grid;
+    justify-content: space-around;
+    place-items: center;
+    background-color: WHITE;
+    grid-template-rows: 1fr 1fr;
+    margin: auto;
+    width: 50%;
+    border-left: 3px groove black;
+    height: 100%;
+}
